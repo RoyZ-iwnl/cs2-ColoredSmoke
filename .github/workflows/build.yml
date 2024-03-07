@@ -2,12 +2,12 @@ name: Build the plugin
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
       - '**.cs'
       - '**.csproj'
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
     paths:
       - '**.cs'
       - '**.csproj'
