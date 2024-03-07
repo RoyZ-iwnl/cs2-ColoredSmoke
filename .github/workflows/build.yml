@@ -32,7 +32,6 @@ jobs:
           mkdir -p output/ColoredSmoke
           mv ./bin/Debug/net7.0/ColoredSmoke.dll output/ColoredSmoke/
           mv ./bin/Debug/net7.0/ColoredSmoke.pdb output/ColoredSmoke/
-          mv ./lang output/ColoredSmoke/
       - name: Publish artifact
         uses: actions/upload-artifact@v4
         with:

@@ -57,8 +57,7 @@ public partial class ColoreddSmoke : BasePlugin, IPluginConfig<ConfigGen>
 
         }
     }
-    //没啥
-
+    
     private void OnEntitySpawned(CEntityInstance entity)
     {
         if (entity.DesignerName != "smokegrenade_projectile") return;
