@@ -16,7 +16,7 @@ public class ConfigGen : BasePluginConfig
 
 public partial class ColoreddSmoke : BasePlugin, IPluginConfig<ConfigGen>
 {
-    public override string ModuleName => "ColoredSmoke vRoyZ";
+    public override string ModuleName => "ColoredSmoke";
     public override string ModuleAuthor => "M1k@c";
     public override string ModuleDescription => "ColoredSmoke";
     public override string ModuleVersion => "V. 1.0.2";
